@@ -18,7 +18,8 @@ except LookupError:
 
 sia = SentimentIntensityAnalyzer()
 
-TELEGRAM_TOKEN = '8492331037:AAGP8nP_mPztpumpVvoC98fxtMxGT4gISgM'
+import os
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
