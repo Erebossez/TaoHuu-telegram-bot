@@ -1,0 +1,5 @@
+python-telegram-bot
+yfinance
+matplotlib
+pandas
+nltk
